@@ -1,229 +1,366 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Boyacense</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">        <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/templatemo-upright.css">
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    
+TemplateMo 555 Upright
+
+https://templatemo.com/tm-555-upright
+
 -->
-<html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Leftside bar -->
+            <div id="tm-sidebar" class="tm-sidebar"> 
+                <nav class="tm-nav">
+                    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <div class="tm-brand-box">
+                            <h1 class="tm-brand">Aventura Boyacense</h1>
+                        </div>                
+                        <ul id="tm-main-nav">
+                            <li class="nav-item">                                
+                                <a href="#home" class="nav-link current">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-home nav-icon"></i>
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-user-friends nav-icon"></i>
+                                    Nosotros
+                                </a>
+                            </li>
+							<li class="nav-item">
+                                <a href="#organigrama" class="nav-link external" target="_parent" rel="sponsored">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-external-link-alt nav-icon"></i>
+                                    Organigrama
+                                </a>
+                            </li>
+							<li class="nav-item">
+                                <a href="#planturistico" class="nav-link external" target="_parent" rel="sponsored">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-external-link-alt nav-icon"></i>
+                                    Plan turístico
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-envelope nav-icon"></i>
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="mb-3 tm-mt-100">
+                        Diseño: <a href="https://marianaaujueta.github.io/proyecto1102-Anzoategui/" target="_parent" rel="sponsored">Mariana Álvarez</a>
+                    </footer>
+                </nav>
+            </div>
+            
+            <div class="tm-main">
+                <!-- Home section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-01.jpg"></div>                   
+                    <section id="home" class="tm-section">
+                        <h2 class="tm-text-primary">Bienvenido a Aventura Boyacense</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-lg-6 tm-col-home mb-4">
+                                <div class="tm-text-container">
+                                                                   
+                                    <p>
+                                        Bienvenido a Boyacá, tierra de leyendas y tradiciones. 
+										Prepárate para sumergirte en un viaje fascinante a través de su patrimonio cultural,
+                                        su deliciosa gastronomía y la calidez de su gente, 
+										Te espera una experiencia inolvidable.
+                                    </p>
+                                </div>                                
+                            </div>
+                            <div class="col-lg-6 tm-col-home mb-4">
+                                <div class="tm-text-container">
+                                    <p>
+                                        Descubre la magia de Aventura Boyacense y vive experiencias inolvidables.
+                                    </p>
+                                    <div class="text-right">
+                                        <a href="#gallery" class="btn btn-primary tm-btn-next">Siguiente página</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- About section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-03.jpg"></div>
+                    <section id="about" class="tm-section">
+                        <h2 class="tm-text-primary">Nosotros</h2>
+                        <hr class="mb-5">
+                        
+                        <div class="row tm-row-about">
+                            <div class="tm-col-about tm-col-about-l">
+                                <p class="mb-4"><b> 
+                            Nuestra Misión:</b></p></br>
+							       <p class="mb-4">
+								   Nuestra misión es promover y difundir las riquezas culturales, históricas y naturales de nuestra región, ofreciendo experiencias turísticas auténticas y de calidad.
+                             </p>
+							 
+                            </div>
+                            <div class="tm-col-about tm-col-about-r">
+                                <img src="img/img-about-01.jpg" alt="Image" class="img-fluid mb-5 tm-img-about">
+								 <p class="mb-4"><b> 
+                            Nuestra Visión:</b></p>
+                                <p>
+                                    Convertirnos en el destino preferido de los viajeros, destacándonos por nuestra autenticidad, calidad y hospitalidad.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+				
+								                <!-- About section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-02.jpg"></div>
+                    <section id="organigrama" class="tm-section">
+                        <h2 class="tm-text-primary">Organigrama</h2>
+                        <hr class="mb-5">                        
+                        <div class="row tm-row-about">
+						     <img src="img/organigrama.jpg" alt="Organigrama" height="100px" class="img-fluid mb-5 tm-img-about">
+                        </div>
+                    </section>
+                </div>
+				
+				                <!-- Home section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-04.jpg"></div>                   
+                    <section id="planturistico" class="tm-section">
+                        <h2 class="tm-text-primary">Plan turístico</h2>
+                        <hr class="tm-hr-short mb-5">
+                        <div class="row tm-row-home">                            
+                           
+                            <div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">Santa sofia, Boyacá - 3 días 2 noches</a>  
+                                        <p>
+                                            Día 1  
+                                             </p></br>
+										   <p align="justify">
+                                            Hospedaje en el hotel Renacer, desayuno café qué se encuentra al interior del hotel, donde encontramos arepa boyacense, embueltos, tamales. En la tarde un bus los recogerá para ir a hoyo de la romera, y un recorrido por el pueblo en la tarde para los que deseen, almuerzo en finca los lagos con vista hermosa y muchos cócteles, finalmente cena platos a la carta restaurante en el hotel.</p>
+                                    </div>                                    
+                                </div>
+								                        <div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        
+                                        <p>
+                                            Día 2 
+                                             </p></br>
+										   <p align="justify">
+										   El bus sale a para el museo del fósil a las 9 de la mañana, desayuno cerca del museo parrilla el pino.
+										   Donde es típico el mute boyacense, en la tarde visitaremos los lagos azules qué quedan cerca de santasofia y pueden encontrar varios lugares para almorzar o llevar para picnic llevado por su cuenta precios de almuerzo a las 5 regresar al hotel y prepararse  para la cena en el hotel.
+                                            </p>
+                                    </div>                                    
+                                </div>
+								 <div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <p>
+                                            Día 3
+                                             </p></br>
+										   <p align="justify">
+                                            El hotel ofrece desayunos gourmet, el bus sale a las 8 para visitar las avestruces, al llegar habra un recorrido de más de una hora y media donde también se encuentra bisicletas en el aire para llevar una experiencia sobre las alturas del lugar, en la tarde se llevarán al pueblo a el restaurante Mac petter donde se encuentran platos típicos por último se llevarán a el hotel</p>
+                                    </div>                                    
+                                </div>
+								<div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">Plan incluye</a>  
+                                        <p>
+                                            Transportes 
+                                             </p>
+			 <p>
+                                            Alejamiento hotel 3 días 2 noches 3 desayunos, 2cenas 
+                                             </p>
+											 			 <p>
+                                            Caminata por el hoyo la romera 
+                                             </p>
+											 			 <p>
+                                            Lagos azules 
+                                             </p>
+											 			 <p>
+                                           Visita El focil de los dinosaurios
+                                             </p>
+											 			 <p>
+                                            Caminata lagos azules cerca del pueblo 
+                                             </p>
+											 											 			 <p>
+                                            Todo esto con guías desde el hotel y los q encontramos en los lugares visitados
+                                             </p>
+											 											 			 <p>
+                                            Comidas incluidas en el plan q sean de los restaurantes donde serán llevados
+                                             </p>
+                                    </div>                                    
+                                </div>
+								<div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">Plan no incluye</a>  
+                                        <p>
+                                            Almuerzos o desayunos en el pueblo que no sean en el restaurante asignado 
+                                             </p>
+			 <p>
+                                            Valor por persona $ 800.000
+                                             </p>
+											 			 <p>
+                                            Valor por persona (temporada baja) $700.00 
+                                             </p>
+                                    </div>                                    
+                                </div>
+								  <div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        
+                                        <p>
+                                            Recomendaciones:
+                                             </p></br>
+										   <p align="justify">
+										   Los precios pueden depender si la persona que nos visita tiene carnet de estudiante de cualquier lugar, no habrán devoluciones de dinero, solo va por parte del plan consumir en el restaurante asignado en otra parte será pagado por su cuenta.
+                                            </p>
+                                    </div>                                    
+                                </div>
+									<div class="media mb-4">
+                                    <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">Actividades adicionales</a>  
+                                        <p>
+                                           Realizar un recorrido en bicicleta por la ciudad.
+                                             </p>
+			 <p>
+                                           Explorar parques naturales y hacer  senderismo
+                                             </p>
+											 			 <p>
+                                           Visitar mercados locales y tiendas de artesanía.
+                                             </p>
+											                                         <p>
+                                            Realizar un paseo en barco o kayak por un río o lago cercano
+                                             </p>
+											                                         <p>
+                                            Tomar clases de baile o música típica de la región.
+                                             </p>
+                                    </div>                                    
+                                </div>
+                        </div>
+                    </section>
+                </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+                <!-- Contact section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-04.jpg"></div>
+                    <div id="contact" class="tm-section">
+                        <h2 class="tm-text-primary">Formulario contacto</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-xl-6 tm-contact-col-l mb-4">
+                                <form id="contact-form" action="" method="POST" class="tm-contact-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control rounded-0" placeholder="Nombre" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control rounded-0" placeholder="Correo" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" id="contact-select" name="inquiry">
+                                            <option value="-">Asunto</option>
+                                            <option value="sales">Información</option>
+                                            <option value="creative">Planes</option>
+                                            <option value="uiux">Otros</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Mensaje" required=></textarea>
+                                    </div>
+            
+                                    <div class="form-group tm-text-right">
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xl-6 tm-contact-col-r">
+                                <!-- Map -->
+                                <div class="mapouter mb-4">
+                                    <div class="gmap_canvas">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3163529559797!2d-74.0354917!3d4.715004899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8557497f1c75%3A0x93c2701342a58fb6!2zQ2wuIDEzNGIsIFVzYXF1w6luLCBCb2dvdMOh!5e0!3m2!1ses!2sco!4v1697494522557!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+            
+                                <!-- Address -->
+                                <address class="mb-4">Calle 134 b #84-28
+                                  
+                                </address>
+            
+                                <!-- Links -->
+                                <ul class="tm-contact-links mb-4">
+                                    <li class="mb-2">
+                                        <a href="tel:0100200340">
+                                            <i class="fas fa-phone mr-2 tm-contact-link-icon"></i>
+                                            Tel: (+57) 1279654316
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:aventuraboyacense@hotmail.com">
+                                            <i class="fas fa-at mr-2 tm-contact-link-icon"></i>
+                                            aventuraboyacense@hotmail.com
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="tm-contact-social">
+                                    <li><a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This is<br />
-						Massively</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+                <!-- Copyright -->                
+                <div class="tm-section-wrap tm-copyright row">
+                    <div class="col-12">
+                        <div class="text-right">
+                            Colombia 2023 - Todos los derechos reservados.
+                        </div> 
+                    </div>
+                </div>                 
+            </div> <!-- .tm-main -->                      
+        </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+    <script src="js/jquery-3.4.1.min.js"></script>          <!-- https://jquery.com/ -->
+    <script src="js/jquery.singlePageNav.min.js"></script>  <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script src="js/parallax/parallax.min.js"></script>     <!-- https://pixelcog.github.io/parallax.js/ -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>     <!-- https://imagesloaded.desandro.com/ -->
+    <script src="js/isotope.pkgd.min.js"></script>          <!-- https://isotope.metafizzy.co/ -->
+    <script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html> 
